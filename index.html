@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+
+  <style>
+    html,
+    body {
+      height: 100%;
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    .round-corner {
+      border-radius: 10px
+    }
+
+    #card {
+      width: 19rem;
+      height: 30rem;
+      background-color: hsl(0, 0%, 100%);
+    }
+
+    #card-title {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    #card-text {
+      font-family: 'Outfit', sans-serif;
+      font-size: 14px;
+      color: hsl(220, 15%, 55%);
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="h-100 d-flex align-items-center justify-content-center">
+    <div id="card" class="card round-corner p-3">
+      <img src="images/image-qr-code.png" class="card-img-top round-corner" alt="...">
+      <div class="card-body">
+        <h5 id="card-title" class="card-title lh-2 pt-2 mb-4">Improve your front-end skills by building projects</h5>
+
+        <div id="card-text" class="card-text lh-sm">
+          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
